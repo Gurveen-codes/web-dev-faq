@@ -10,6 +10,8 @@ const App = () => {
 
   const alanBtnInstance = useRef(null);
 
+  const [toggleColorFlag, setToggleColorFlag] = useState(false);
+
   useEffect(() => {
     if (!alanBtnInstance.current) {
       alanBtnInstance.current = alanBtn({
@@ -24,6 +26,8 @@ const App = () => {
               delay: 0,
               smooth: 'easeInOut',
             });
+          } else if (commandData.command === 'toggleColorMode') {
+            setToggleColorFlag(flag => !flag);
           }
         },
       });
@@ -32,7 +36,7 @@ const App = () => {
   return (
     <div>
       <ChakraProvider theme={theme}>
-        <Navbar></Navbar>
+        <Navbar toggleColorFlag={toggleColorFlag}></Navbar>
         <FAQ index={index} setIndex={setIndex}></FAQ>
       </ChakraProvider>
     </div>
