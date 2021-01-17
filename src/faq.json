@@ -1,20 +1,43 @@
-({
-  "id": 1,
-  "question": "What is Internet?",
-  "answer": "The Internet is a vast network that connects computers all over the world."
-},
-{
-  "id": 2,
-  "question": "What is Internet?",
-  "answer": "The Internet is a vast network that connects computers all over the world."
-},
-{
-  "id": 3,
-  "question": "What is Internet?",
-  "answer": "The Internet is a vast network that connects computers all over the world."
-},
-{
-  "id": 4,
-  "question": "What is Internet?",
-  "answer": "The Internet is a vast network that connects computers all over the world."
-})
+[
+  {
+    "id": "1",
+    "question": "What is this?",
+    "answer": "This a Voice Assisted Web Development Starter FAQ App, You can ask questions regarding Web Development by tapping on Blue icon at Bottom-Right and asking your question to our Automated AI."
+  },
+  {
+    "id": 2,
+    "question": "What is Internet?",
+    "answer": "The Internet is a vast network that connects computers all over the world."
+  },
+  {
+    "id": 3,
+    "question": "What is HTML?",
+    "answer": "HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page."
+  },
+
+  {
+    "id": 4,
+    "question": "What is a Browser?",
+    "answer": "A web browser is the computer program you use to view web pages. The most popular web browsers include Google Chrome, Mozilla Firefox, Apple Safari etc."
+  },
+  {
+    "id": 5,
+    "question": "What is World Wide Web?",
+    "answer": "The World Wide Web is combination of all resources and users on the Internet that are using the Hypertext Transfer Protocol or HTTP."
+  },
+  {
+    "id": 6,
+    "question": "What is HTTP?",
+    "answer": "The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, and is used to load web pages using hypertext links. An HTTP request is the way internet communications platforms such as web browsers ask for the information they need to load a website."
+  },
+  {
+    "id": 7,
+    "question": "What is a Server?",
+    "answer": "A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network."
+  },
+  {
+    "id": 8,
+    "question": "What is Javascript?",
+    "answer": "JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages."
+  }
+]
