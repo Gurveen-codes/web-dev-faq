@@ -19,7 +19,7 @@ const FAQ = ({ index, setIndex }) => {
       <Flex direction="column" p="4">
         <Box mb="8">
           <Heading size="md">Frequently Asked Questions</Heading>
-          <Accordion allowToggle index={index}>
+          <Accordion allowtoggle="true" index={index}>
             {FAQ_LIST.map(faq => {
               return (
                 <AccordionItem key={faq.id} name={`accordian-item-${faq.id}`}>
@@ -31,6 +31,7 @@ const FAQ = ({ index, setIndex }) => {
                     <Box flex="1" textAlign="left">
                       <Text fontWeight="semibold">{faq.question}</Text>
                     </Box>
+                    <AccordionIcon></AccordionIcon>
                   </AccordionButton>
                   <AccordionPanel pb="4">{faq.answer}</AccordionPanel>
                 </AccordionItem>
